@@ -8,7 +8,6 @@ This repository contains all the data mining projects I have completed so far. E
 - [Classification Project](#classification-project)
 - [Convolutional Neural Network Project](#convolutional-neural-network-project)
 - [Markov Model](#markov-model)
-- [License](#license)
 
 ## Regression Project
 
@@ -85,10 +84,6 @@ In this project, I used a Markov Model to predict customer churn based on contra
 - **One-Year Contracts:** 11.27% probability of churning.
 - **Two-Year Contracts:** 2.83% probability of churning.
 - Longer contract periods correlate with lower churn rates.
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
