@@ -1,7 +1,98 @@
-# Data-Mining-Projects
-This repository contains all data mining projects I have done so far
+# Data Mining Projects
 
-In the regression Project, I applied a multiple linear regression model to predict the car price based on several of its characteristics and commented on my model’s performance where I began by thoroughly cleaning the dataset, addressing issues such as converting numerical columns loaded in as objects and resolving inconsistencies in categorical columns. Next, I reduced the variety of 'body' categories into main types like Sedan, Coupe, Convertible, Hatchback, SUV, Minivan, Wagon, and Pickup Truck, ensuring consistency and simplicity for analysis. Afterward, I selected suitable columns for the regression model, considering factors like mileage, condition, transmission type, and car make. For categorical encoding, I employed an appropriate method to transform categorical variables into numerical equivalents suitable for regression analysis.Moving on to regression modeling, I applied a multiple linear regression approach to predict car prices based on various characteristics. After training the model, I evaluated its performance, considering metrics like R-squared, mean squared error, and residual analysis to assess how well it fits the data and makes predictions. For the queries posed, I provided visualizations to provide insights. I identified the most popular car brands by analyzing the frequency of each brand in the dataset and highlighting the top three. Using a bar plot, I compared the selling prices of automatic and manual cars to determine if there's a significant difference in average prices based on transmission type.Additionally, I created a box plot to illustrate the distribution of selling prices for each car make, identifying those with the widest price ranges and the most expensive ones. To assess the correlation between odometer reading and sale price, as well as between car condition and sale price, I plotted lines of best fit and examined the trends.Finally, I visualized the selling prices of each body type using a bar plot, discerning any differences in average prices across body types and ranking them accordingly, naming the most and least expensive types based on the analysis. Overall, I conducted comprehensive data preprocessing, regression modeling, and visualization to glean insights into the used car auction sales dataset and provide meaningful interpretations.
+This repository contains all the data mining projects I have completed so far. Each project focuses on different data analysis and machine learning techniques to address specific problems.
 
+## Table of Contents
 
-In the classification project, I began by thoroughly preprocessing the telecom customer churn dataset, addressing missing values, resolving inconsistencies, and cleaning the data to ensure its quality for analysis. Next, I focused on investigating voluntary churn, which is crucial for telecom companies to mitigate. I selected a classification algorithm, leveraging the knowledge and techniques covered in our lab sessions, and trained it on the dataset. For each query, I provided insightful visualizations to aid in understanding the data better. Firstly, I identified the most correlated attributes with customer churn, shedding light on factors that contribute significantly to churn prediction. Then, I analyzed the churn rates associated with different payment methods, highlighting which method had the highest churn rate among customers. Further, I digged into the distribution of churn occurrences over time, showcasing common churn intervals at the 25th, 50th, and 75th percentiles. This analysis provides valuable insights into customer behavior and churn patterns, aiding in proactive retention strategies. Lastly, I displayed the decision tree after modeling and commented on the node splits. One of the rules extracted from the tree indicated a significant predictor for churn, providing a brief understanding of the factors influencing customer churn prediction. Overall, I addressed each query, providing both visualizations and interpretations to enhance understanding. Additionally, I evaluated the model's performance, employing an appropriate metric justified for this classification task. Through comprehensive analysis and interpretation, I aimed to provide actionable insights for telecom companies to tackle customer churn effectively.
+- [Regression Project](#regression-project)
+- [Classification Project](#classification-project)
+- [Convolutional Neural Network Project](#convolutional-neural-network-project)
+- [Markov Model](#markov-model)
+- [License](#license)
+
+## Regression Project
+
+### Overview
+
+In the Regression Project, I applied a multiple linear regression model to predict car prices based on several characteristics. The main steps included data cleaning, categorical reduction, feature selection, encoding, and model evaluation.
+
+### Details
+
+- **Data Cleaning:** Addressed issues like converting numerical columns loaded as objects and resolving inconsistencies in categorical columns.
+- **Categorical Reduction:** Simplified 'body' categories into main types: Sedan, Coupe, Convertible, Hatchback, SUV, Minivan, Wagon, and Pickup Truck.
+- **Feature Selection:** Chose factors such as mileage, condition, transmission type, and car make.
+- **Categorical Encoding:** Applied suitable methods to transform categorical variables into numerical equivalents.
+- **Regression Modeling:** Trained a multiple linear regression model and evaluated it using metrics like R-squared, mean squared error, and residual analysis.
+- **Visualizations:** Provided insights through visualizations, including bar plots and box plots, to analyze trends and correlations.
+
+### Key Insights
+
+- Identified the most popular car brands and the impact of transmission type on selling prices.
+- Analyzed the distribution of selling prices across different car makes and body types.
+- Assessed correlations between odometer reading, car condition, and sale price.
+
+## Classification Project
+
+### Overview
+
+In the Classification Project, I focused on predicting telecom customer churn using a classification algorithm. The project involved thorough data preprocessing, model training, and performance evaluation.
+
+### Details
+
+- **Data Preprocessing:** Addressed missing values and resolved inconsistencies to ensure data quality.
+- **Churn Analysis:** Investigated voluntary churn to aid telecom companies in retention strategies.
+- **Classification Algorithm:** Trained a classification model and provided insightful visualizations.
+- **Key Queries:** Identified attributes correlated with churn, analyzed churn rates by payment methods, and examined churn intervals.
+
+### Key Insights
+
+- Highlighted significant predictors for churn and provided a detailed decision tree analysis.
+- Evaluated model performance using metrics like precision, recall, and F1-score.
+
+## Convolutional Neural Network Project
+
+### Overview
+
+This project aimed to predict customer churn using a Convolutional Neural Network (CNN) due to the complex nature of churn data and the need for a model capable of capturing intricate patterns.
+
+### Details
+
+- **Dataset:** Chose a customer churn dataset from the telecom industry with relevant features.
+- **Attributes:** Focused on attributes most correlated with churn: paperless billing, monthly charges, senior citizen status, and payment method.
+- **Sequential Neural Network:** Selected this architecture to capture temporal dependencies and sequential patterns in the data.
+- **Performance Evaluation:** Achieved an accuracy of 80.77% with detailed analysis using precision, recall, and F1-score.
+
+### Key Insights
+
+- The model helps identify customers with high churn probability, allowing companies to take proactive measures.
+- Addressed dataset imbalance and provided suggestions for model improvement.
+
+## Markov Model
+
+### Overview
+
+In this project, I used a Markov Model to predict customer churn based on contract types. The analysis revealed how contract duration affects churn rates.
+
+### Details
+
+- **Dataset:** Selected a telecom customer churn dataset.
+- **Contract Types:** Analyzed month-to-month, one-year, and two-year contracts.
+- **Markov Model:** Developed a model to calculate transition probabilities between different states.
+
+### Key Insights
+
+- **Month-to-Month Contracts:** 42.71% probability of churning.
+- **One-Year Contracts:** 11.27% probability of churning.
+- **Two-Year Contracts:** 2.83% probability of churning.
+- Longer contract periods correlate with lower churn rates.
+
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+Feel free to explore each project folder for more detailed documentation and code.
+
+**Dataset Links:**
+- [Telecommunications Industry Customer Churn Dataset](https://www.kaggle.com/datasets/aadityabansalcodes/telecommunications-industry-customer-churn-dataset)
